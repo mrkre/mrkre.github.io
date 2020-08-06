@@ -1,0 +1,37 @@
+theme = "hugo-theme-codex" 
+
+baseURL = "http://www.chngyaohong.com/"
+languageCode = "en-us"
+title = "Ch'ng Yaohong"
+copyright = "© {year}"
+
+[params]
+  # twitter = "https://twitter.com/<your handle>"
+  github = "https://github.com/mrkre"
+
+  iconOrder = ["GitHub"]
+
+# This disables Hugo's default syntax highlighting in favor
+# of prismjs. If you wish to use Hugo's default syntax highlighting
+# over prismjs, remove this. You will also need to remove the prismjs
+# vendor script in layouts/blog/single.html.
+[markup]
+  [markup.highlight]
+    codeFences = false
+    
+  # Set to false to disallow raw HTML in markdown files
+  [markup.goldmark.renderer]
+      unsafe = true
+
+# Controls the navigation
+[[menu.main]]
+  identifier = "index"
+  name = "index"
+  title = "Index"
+  url = "/"
+
+# [[menu.main]]
+#   identifier = "blog"
+#   name = "blog"
+#   title = "Blog"
+#   url = "/blog"
