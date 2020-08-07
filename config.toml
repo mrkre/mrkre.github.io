@@ -4,6 +4,7 @@ baseURL = "http://www.chngyaohong.com/"
 languageCode = "en-us"
 title = "Ch'ng Yaohong"
 copyright = "© {year}"
+publishDir = "docs"
 
 [params]
   # twitter = "https://twitter.com/<your handle>"
