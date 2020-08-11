@@ -10,7 +10,7 @@ git add -A
 
 msg="Build `date`"
 
-if [ $# -eq 1]
+if [ $# -eq 1 ]
   then msg="$1"
 fi
 
