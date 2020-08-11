@@ -11,5 +11,14 @@
 	<atom:link href="http://www.chngyaohong.com/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>About</title>
+      <link>http://www.chngyaohong.com/about/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.chngyaohong.com/about/</guid>
+      <description>Yaohong currently oversees software development and data engineering efforts at a digital wealth management company. Having spent more than a decade in the finance industry, he combines keen market insights with tech know-how to build products for consumers and businesses. In previous iterations, he was a photographer (and writer), a sales trader and an entrepreneur.</description>
+    </item>
+    
   </channel>
 </rss>
