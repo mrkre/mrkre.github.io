@@ -16,6 +16,7 @@ publishDir = "docs"
 # of prismjs. If you wish to use Hugo's default syntax highlighting
 # over prismjs, remove this. You will also need to remove the prismjs
 # vendor script in layouts/blog/single.html.
+
 [markup]
   [markup.highlight]
     codeFences = false
@@ -26,13 +27,13 @@ publishDir = "docs"
 
 # Controls the navigation
 [[menu.main]]
-  identifier = "index"
-  name = "index"
-  title = "Index"
+  identifier = "home"
+  name = "home"
+  title = "Home"
   url = "/"
 
-# [[menu.main]]
-#   identifier = "blog"
-#   name = "blog"
-#   title = "Blog"
-#   url = "/blog"
+[[menu.main]]
+  identifier = "about"
+  name = "about"
+  title = "about"
+  url = "/about"
